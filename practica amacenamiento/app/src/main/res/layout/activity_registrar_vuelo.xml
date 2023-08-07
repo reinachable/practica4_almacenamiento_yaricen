@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFE0"
+    tools:context=".RegistrarVueloActivity">
+
+    <EditText
+        android:id="@+id/editTextOrigen"
+        android:layout_width="280dp"
+        android:layout_height="104dp"
+        android:hint="Origen" />
+
+    <EditText
+        android:id="@+id/editTextDestino"
+        android:layout_width="250dp"
+        android:layout_height="109dp"
+        android:hint="Destino" />
+
+    <EditText
+        android:id="@+id/editTextFecha"
+        android:layout_width="250dp"
+        android:layout_height="99dp"
+        android:hint="Fecha (DD/MM/AAAA)" />
+
+    <EditText
+        android:id="@+id/editTextHora"
+        android:layout_width="250dp"
+        android:layout_height="105dp"
+        android:hint="Hora (HH:MM)" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="304dp"
+        android:layout_height="79dp"
+        android:backgroundTint="#68E3F3"
+        android:text="Guardar" />
+
+</LinearLayout>

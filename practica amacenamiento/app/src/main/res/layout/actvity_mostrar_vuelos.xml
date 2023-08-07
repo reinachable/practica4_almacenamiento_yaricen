@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFE0"
+    tools:context=".MostrarVuelosActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:paddingBottom="8dp"
+        android:text="Selecciona un vuelo y una aerolínea"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinnerVuelos"
+        android:layout_width="150dp"
+        android:layout_height="151dp"
+        android:entries="@array/vuelos_array"
+        android:paddingBottom="10dp" />
+
+    <Spinner
+        android:id="@+id/spinnerAerolineas"
+        android:layout_width="150dp"
+        android:layout_height="163dp"
+        android:entries="@array/aerolineas_array"
+        android:paddingBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:backgroundTint="#55CCDC"
+        android:text="Guardar" />
+
+</LinearLayout>

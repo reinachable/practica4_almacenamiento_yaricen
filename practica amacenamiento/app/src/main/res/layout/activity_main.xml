@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#ECF6F4"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnMostrarVuelos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1195FD"
+        android:text="Mostrar Vuelos" />
+
+    <Button
+        android:id="@+id/btnRegistrarVuelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#11ABD1"
+        android:text="Registrar Vuelo" />
+
+    <Button
+        android:id="@+id/btnRegistrarAerolinea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1CE1A3"
+        android:text="Registrar Aerolínea" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mis vuelos reservados:"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listViewVuelos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

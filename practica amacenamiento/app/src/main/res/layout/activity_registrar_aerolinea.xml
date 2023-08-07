@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FF03DAC5"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="373dp"
+        android:layout_height="76dp"
+        android:text="Nombre de la Aerolínea:"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextAerolinea"
+        android:layout_width="250sp"
+        android:layout_height="50dp"
+        android:hint="Ingrese el nombre" />
+
+</LinearLayout>
